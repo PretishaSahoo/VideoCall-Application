@@ -1,4 +1,4 @@
-import React  , {useCallback, useEffect, useState} from 'react'
+xxx[;;import React  , {useCallback, useEffect, useState} from 'react'
 import { useSocket } from '../Context/SocketProvider'
 import ReactPlayer from 'react-player'
 import Peer from "../Service/Peer"
@@ -159,7 +159,7 @@ export default function Room() {
         muted
         url={stream}
         width="100%"  
-        height="auto"
+        height="90%"
         style={{
           borderRadius: "0.5rem",
           overflow: "hidden",
@@ -174,7 +174,7 @@ export default function Room() {
         muted
         url={remoteStream}
         width="100%"   
-        height="auto"
+        height="90%"
         style={{
           borderRadius: "0.5rem",
           overflow: "hidden",
